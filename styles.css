@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body,html { font-family: 'Poppins', sans-serif;	height: 100%; }
+
+
+::placeholder {  color: rgba(0, 0, 0, 0.6) !important;  opacity: .6 !important;  }
+:-ms-input-placeholder { color: rgba(0, 0, 0, 0.6) !important;}
+::-ms-input-placeholder {  color: rgba(0, 0, 0, 0.6) !important;}
+
+.locked { 	background:#e0e0e0 !important; color:#aaa !important}
+
+
+label {	margin-top: 15px;margin-bottom: 5px;color: #666	}
+label[for="rememberMe"] { font-weight: 500 !important}
+.btn , button[type="submit"] {color: white !important;background: #2176bc !important;border: 0px;}
+.btn { margin-top:5px}
+ul {padding: 0px}
+li {list-style: none !important;}
+
+.intro { display: none;	}
+.helpLink  { display:none !important}
+.line {	display: block;	margin: 25px}
+.line h2 { font-size:15px;	text-align: center;	border-bottom: 1px solid grey;	position: relative;}
+.line h2 span {	background-color: white;	position: relative;	top: 10px;	padding: 0 10px;}
+.middle-pic {	border-radius: 50%;	width: 300px;	padding: 5px;	border: solid 1px #2176bc;}
+
+.pass-template {width: 140px;left: -150px; top:30px; background: #fff;border-right: solid 1px #333;border-top: solid 1px #333;border-bottom: solid 1px #333;}
+.b-success {	border-left: solid 6px green}
+.b-danger {	border-left: solid 6px red}
+#cancel {display: none;	}
+
+#fieldIncorrect { display: none !important; }
+/* label { visibility: hidden; display:block; height:15px} */
+label { display:none }
+
+.blue { color:#2876BC}
+
+.form-select:required:invalid {
+	color: gray !important;
+}
+.form-select option[value=""][disabled] {
+	display: none;
+}
+.form-select option {
+	color: black !important;
+}
+.form-control, .form-select, #extension_CompanySize
+ {padding-left:0px; 	border:0px !important;	border-bottom: solid 2px #2876BC !important ;border-radius:0px !important;
+
+}
+
+.form-control:focus{ 	box-shadow: none;}
+.form-select:focus{ box-shadow:none !important}
+#extension_CompanySize{ box-shadow:none!important;     width: 100%;}
+.input-group-text { 	border:0px !important;	background: transparent !important;	border-bottom: solid 2px #2876BC !important;border-radius:0px !important;}
+
+/* #emailVerificationControl_but_send_code { display:none !important} */
+
+
+.hasError { border-bottom: solid 2px #dc3545 !important;}
+span.input-group-text.hasError { border-bottom: solid 2px #dc3545 !important;}
+
+.rememberMe { display:none}
+
+.entry-item { margin-bottom: 20px !important}
+.create,
+#forgotPassword { font-size:.8rem !important}
+.create a { margin-left: 10px }
+.create { margin-bottom:20px;}
+input,#jobTitle,#extension_CompanySize { padding-left:5px !important;}
+/* #jobTitle_label  {
+	color:#red !important
+} */
+.input-group-text { width:45px !important;
+/* padding-top:30px !important */
+}
+
+/* input.form-control, input.form-select, */
+ #extension_CompanySize {	margin-top:25px;}
+
+
+
+/* .attrEntry label , .attrEntry .error , .attrEntry small { display:none !important}
+.entry-item label , .entry-item .error , .entry-item small { display:none !important} */
+
+.verifying-modal { 
+	display: none !important
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+
+/* div.error.itemLevel { display: none !important} */
+/* :disabled, :read-only, [disabled], [readonly] {background:#cccccc; color:#ffffff} */
+
+@media (max-width:550px) {
+  .registerForm {
+	width:350px !important;
+  }
+  .display-SignIn {
+	  display:none !important;
+  }
+}
+
+.justify-content-space {
+	justify-content: space-evenly !important;
+
+}
+
+.highlight {
+	color:#adadad !important
+}
+
+/* #jobTitle[aria-label="Your Role"] {
+  color: red !important;
+} */
